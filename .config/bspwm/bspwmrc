@@ -2,11 +2,11 @@
 
 #Autoruns
 pgrep -x sxhkd > /dev/null || sxhkd &
-~/.config/polybar/hack/launch.sh
+~/.config/polybar/default/launch.sh
 
 
 #Workspaces
-bspc monitor -d I II III IV V VI VII
+bspc monitor -d I II III IV V VI VII VIII
 
 # Mouse Binding
 bspc config pointer_action1 move
