@@ -2,6 +2,6 @@
 alacritty &
 discocss &
 steam &
-firefox &
+librewolf &
 flameshot
 exit

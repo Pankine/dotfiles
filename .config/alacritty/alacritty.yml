@@ -68,7 +68,7 @@
   # Window opacity as a floating point number from `0.0` to `1.0`.
  # The value `0.0` is completely transparent and `1.0` is opaque.
 window:
- opacity: 0.7
+ opacity: 0.65
 
 
   # Startup Mode (changes require restart)
@@ -399,7 +399,7 @@ font:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 #shell:
-#  program: /bin/bash
+#  program: /bin/zsh
 #  args:
 #    - --login
 
@@ -844,30 +844,57 @@ font:
 
 
 # Colors (iTerm 2 default theme)
-colors:
+#colors:
   # Default colors
-  primary:
-    background: '0x0f151b'
-    foreground: '0xffffff'
+  #    primary:
+      #     background: '0x000033'
+       #     foreground: '0xfffbf6'
 
   # Normal colors
-  normal:
-    black:   '0x2e2e2e'
-    red:     '0xeb4129'
-    green:   '0xabe047'
-    yellow:  '0xf6c744'
-    blue:    '0x47a0f3'
-    magenta: '0x7b5cb0'
-    cyan:    '0x64dbed'
-    white:   '0xe5e9f0'
+  #normal:
+  #  black:   '0x2e2e2e'
+    #  red:     '0xeb4129'
+    #  green:   '0xabe047'
+    #  yellow:  '0xf6c744'
+    #  blue:    '0x47a0f3'
+    #  magenta: '0x7b5cb0'
+    #  cyan:    '0x64dbed'
+    #  white:   '0xe5e9f0'
 
   # Bright colors
-  bright:
-    black:   '0x565656'
-    red:     '0xec5357'
-    green:   '0xc0e17d'
-    yellow:  '0xf9da6a'
-    blue:    '0x49a4f8'
-    magenta: '0xa47de9'
-    cyan:    '0x99faf2'
-    white:   '0xffffff'
+  #bright:
+  #  black:   '0x565656'
+    #  red:     '0xec5357'
+    #  green:   '0xc0e17d'
+    #  yellow:  '0xf9da6a'
+    #  blue:    '0x49a4f8'
+    #  magenta: '0xa47de9'
+    #  cyan:    '0x99faf2'
+    #  white:   '0xffffff'
+
+
+# Shovel Knight Colors
+colors:
+ primary:
+    background: '0x000000'
+    foreground: '0xfffbf6'
+
+ normal:
+  black:   '0x2e2e2e'
+  red:     '0x900328'
+  green:   '0x2db200'
+  yellow:  '0xc68800'
+  blue:    '0x133f5a'
+  magenta: '0x90198f'
+  cyan:    '0x228595'
+  white:   '0xe5e9f0'
+
+ bright:
+  black:   '0x565656'
+  red:     '0xe73202'
+  green:   '0xbdf70e'
+  yellow:  '0xf9b800'
+  blue:    '0x258592'
+  magenta: '0xd42ad0'
+  cyan:    '0x52bff7'
+  white:   '0xffffff'

@@ -50,6 +50,6 @@ fi
 
 picom -f &
 xsetroot -cursor_name left_ptr
-feh --bg-scale Pictures/jkwvasp0pgz31.jpg 
+~/.fehbg & 
 ./bash_scripts/autorun.sh &
 exec bspwm

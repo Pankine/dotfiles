@@ -11,6 +11,10 @@ super + @space
 #	dmenu
 	rofi -show run
 
+# power menu
+super + alt + Escape
+ ./.config/polybar/default/scripts/powermenu.sh
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

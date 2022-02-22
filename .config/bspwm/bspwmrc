@@ -13,12 +13,15 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action2 resize_corner
 
-# Other
+# Bspwm Settings
 bspc config border_width         4
 bspc config window_gap          15
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+bspc config focused_border_color      "#258592"
+bspc config active_border_color       "#258592"
+bspc config normal_border_color       "#133f5a"
 
 # Window Rules
 bspc rule -a Gimp desktop='^8' state=floating follow=on
@@ -29,5 +32,5 @@ bspc rule -a robloxplayerlauncher.exe state=floating
 bspc rule -a robloxplayerbeta.exe desktop='^6'
 bspc rule -a hl2_linux desktop='^6'
 bspc rule -a discord desktop='^3'
-bspc rule -a firefox desktop='^2'
+bspc rule -a LibreWolf desktop='^2'
 bspc rule -a Steam desktop='^5'
